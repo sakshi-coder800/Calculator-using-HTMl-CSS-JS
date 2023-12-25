@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: red;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all .3s ease-in;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.content {
+    position: relative;
+    top: 20%;
+    width: auto;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    /* flex flex-col items-center mx-auto m-w-20 */
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .phone {
+    background-image: url(phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
